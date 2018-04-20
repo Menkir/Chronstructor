@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="SchraubeM5x12" size="0.140000 0.140000" />
+    <ImageTarget name="SchraubeM4x12" size="0.140000 0.140000" />
+    <ImageTarget name="SchraubeM4x8" size="0.140000 0.140000" />
+    <ImageTarget name="SchraubeM3x12" size="0.140000 0.140000" />
+    <ImageTarget name="Unterlegscheibe" size="0.100000 0.100000" />
+    <ImageTarget name="Ring" size="0.100000 0.100000" />
+    <ImageTarget name="Riemenrad" size="0.100000 0.100000" />
+    <ImageTarget name="Motor" size="0.100000 0.100000" />
+    <ImageTarget name="Montagesockel" size="0.100000 0.100000" />
+    <ImageTarget name="Getriebegehaeuse" size="0.100000 0.100000" />
+    <ImageTarget name="Drehteil" size="0.100000 0.100000" />
+    <ImageTarget name="Dichtung" size="0.100000 0.100000" />
+    <ImageTarget name="Deckel" size="0.100000 0.100000" />
+    <ImageTarget name="Bremse" size="0.100000 0.100000" />
+  </Tracking>
+</QCARConfig>
