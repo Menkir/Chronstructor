@@ -5,15 +5,47 @@ In cooperation with communication designers and machine engineers from htwg cons
 At the end of the semester all startups compete about the investors.
 
 The app Chronstructor is a augmented reality app which runs on the hololens device from microsoft.
-The main idea is to build e.g. a engine with augmented reality to speedup the process. The app analyzes the parts of the engine which are needed in the current build step. So the benefit is saving time. Our main goal was language neutrality.
+The main idea is to build e.g. a engine with augmented reality to speedup the process. The app analyzes the parts of the engine by scanning and detecting QR Codes which are needed in the current build step. So the benefit is saving time. Our main goal was language neutrality.
 
-The development environment was unity3d, the buildtool universal studio and the main programing language was c#.
+The development environment was unity3d, the buildtool universal studio and the programing language is c#.
 
 The analyzing process for detecting current engine parts was made by the vuforia framework.
 
-## 
 
-## Samples
+## Impressions
+
+![](hololens_samples/1.png)
+![](hololens_samples/2.png)
+![](hololens_samples/3.png)
+![](hololens_samples/4.png)
+![](hololens_samples/5.png)
+![](hololens_samples/6.png)
+![](hololens_samples/7.png)
+![](hololens_samples/8.png)
+![](hololens_samples/9.png)
+
+### HTWG VR conference in Constance
+![](hololens_samples/10.jpg)
+![](hololens_samples/11.jpg)
+![](hololens_samples/12.jpg)
+
+## Implementation
+### Classes
+#### ApplicationLoader
+#### Bauteil_Rotator
+#### ChronTrackableEventHandler
+#### ElementStartAnimation
+#### Elementmanager
+#### GazeObserver
+#### GifAnimator
+#### ImageManager
+#### LevelController
+#### StepController
+#### TimeLineController
+#### play
+#### rotation
+#### utility
+#### visibility
 
 ## Additional Notes
 Be aware that specifically the ui is written hardcoded. So when you want to use some other engines or building processes you will get ui inconsistencies.
