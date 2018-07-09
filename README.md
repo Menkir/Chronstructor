@@ -13,7 +13,7 @@ The analyzing process for detecting current engine parts was made by the vuforia
 
 
 ## Impressions
-
+![](hololens_samples/The-Chronstructor.gif)
 ![](hololens_samples/1.png)
 ![](hololens_samples/2.png)
 ![](hololens_samples/3.png)
@@ -29,23 +29,15 @@ The analyzing process for detecting current engine parts was made by the vuforia
 ![](hololens_samples/11.jpg)
 ![](hololens_samples/12.jpg)
 
-## Implementation
-### Classes
-#### ApplicationLoader
-#### Bauteil_Rotator
-#### ChronTrackableEventHandler
-#### ElementStartAnimation
-#### Elementmanager
-#### GazeObserver
-#### GifAnimator
-#### ImageManager
-#### LevelController
-#### StepController
-#### TimeLineController
-#### play
-#### rotation
-#### utility
-#### visibility
+
+
+
 
 ## Additional Notes
 Be aware that specifically the ui is written hardcoded. So when you want to use some other engines or building processes you will get ui inconsistencies.
+
+For appropriate work you need to create a database in [vuforia](www.vuforia.com) with particular engine parts.
+As you see here.
+![](hololens_samples/targets.png)
+
+You need a developer account as well to construct the database of trackable qr-codes.
